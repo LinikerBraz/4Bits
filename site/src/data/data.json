@@ -1,0 +1,153 @@
+{
+  "Header": {
+    "title": "4BITS LABS",
+    "paragraph": "Somos uma startup que transforma ideias em sistemas funcionais. Unimos design, estratégia e tecnologia sob medida. Soluções simples, eficientes e feitas pra você. Vamos construir algo que realmente funcione?"
+  },
+  "About": {
+    "paragraph": "Criamos soluções digitais que fazem a diferença. Combinamos tecnologia, design e estratégia para transformar ideias em produtos funcionais e impactantes. Nosso foco é entender seus desafios e entregar resultados reais, sempre com agilidade e inovação.",
+    "Why": [
+      "Soluções sob medida",
+      "Foco em resultados",
+      "Automação inteligente",
+      "Design funcional"
+    ],
+    "Why2": [
+      "Entrega rápida",
+      "Suporte próximo",
+      "Integrações fácies",
+      "Visão estratégica"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Igoor Corttes",
+      "largeImage": "img/portfolio/igor-large.jpeg",
+      "smallImage": "img/portfolio/igor-small1.jpeg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Project Title",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-cogs",
+      "name": "Sistemas sob medida",
+      "text": "Plataformas criadas para se encaixar no seu negócio. Funcionais, escaláveis e sem complicaçãos."
+    },
+    {
+      "icon": "fa fa-refresh",
+      "name": "Automação de processos",
+      "text": "Elimine tarefas manuais e ganhe tempo. Automatize o que trava sua operação."
+    },
+    {
+      "icon": "fa fa-plug",
+      "name": "Integração com APIs e plataformas",
+      "text": "Conectamos seu sistema às ferramentas que você já usa no dia a dia.Tudo funciona em conjunto, com fluidez, segurança e praticidade."
+    },
+    {
+      "icon": "fa fa-flask",
+      "name": "Prototipação e validação",
+      "text": "Testamos ideias antes de escalar. Menos risco, mais agilidade."
+    },
+    {
+      "icon": "fa fa-lightbulb-o",
+      "name": "Consultoria tecnológica",
+      "text": "Aplicamos tecnologia com visão estratégica. Soluções que fazem sentido."
+    },
+    {
+      "icon": "fa fa-tasks",
+      "name": "Soluções para gestão internas",
+      "text": "Ferramentas que organizam processos e equipes. Mais controle, menos esforço."
+    }
+  ],
+  "Testimonials": [],
+  "Team": [
+    {
+      "img": "img/team/luizliniker.jpeg",
+      "name": "Luiz Liniker",
+      "job": "Programador Frontend"
+    },
+    {
+      "img": "img/team/caiolima.jpeg",
+      "name": "Caio Lima",
+      "job": "Programador Backend"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Matheus Bento",
+      "job": "Designer"
+    },
+    {
+      "img": "img/team/glauber.jpeg",
+      "name": "Glauber Ribeiro",
+      "job": "Vendas"
+    }
+  ],
+  "Contact": {
+    "address": "Monsenhor Paulo ",
+    "phone": "+1 123 456 1234",
+    "email": "contato.4bitslabs.com",
+    "facebook": "fb.com",
+    "instagram": "https://www.instagram.com/4bitslabs/",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-bolt",
+      "title": "Agilidade",
+      "text": "Entregamos rápido, com eficiência e sem perder qualidade."
+    },
+    {
+      "icon": "fa fa-bullseye",
+      "title": "Foco em resultados",
+      "text": "Soluções pensadas para gerar impacto real no seu negócio."
+    },
+    {
+      "icon": "fa fa-puzzle-piece",
+      "title": "Personalização",
+      "text": "Cada sistema é feito sob medida, sem modelos prontos."
+    },
+    {
+      "icon": "fa fa-users",
+      "title": "Parceria próxima",
+      "text": "Trabalhamos lado a lado com você, com suporte e transparência."
+    }
+  ]
+}
