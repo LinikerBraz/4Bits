@@ -74,7 +74,10 @@ hr {
 #menu {
   padding: 15px;
   transition: all 0.8s;
+  overflow-x: hidden;
+  max-width: 100%;
 }
+
 #menu.navbar-default {
   background: linear-gradient(to right, #002d72 , #573894 , #91459e , #00846e );
   border-color: rgba(231, 231, 231, 0);
@@ -87,6 +90,7 @@ hr {
   color: #ffffff;
   text-transform: uppercase;
 }
+@media (max-width: 400px){
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -96,6 +100,10 @@ hr {
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
+}
+#menu.navbar-default .navbar-nav > li {
+  position: relative;
+}
 }
 #menu.navbar-default .navbar-nav > li > a:after {
   display: block;
