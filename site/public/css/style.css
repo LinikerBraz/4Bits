@@ -7,7 +7,7 @@ html {
   font-weight: 400;
   width: 100% !important;
   height: 100% !important;
-  overflow-x: hidden !important; /* Adicionando overflow-x hidden para prevenir scroll horizontal */
+  overflow-x: hidden;
 }
 
 h2,
@@ -209,7 +209,7 @@ a:focus,
 .intro {
   display: block;
   width: 100%;
-  min-height: 100vh; /* Corrigido min-height de "100 vh" para "100vh" */
+  min-height: 100vh;
   margin: 0;
   padding: 0;
   background: url(../img/tecnologia-de-nuvem-com-holograma-futurista-em-smartwatch.jpg) center center no-repeat;
@@ -218,17 +218,18 @@ a:focus,
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  overflow: hidden; /* Adicionando overflow hidden */
-  position: relative; /* Adicionando position relative */
+  position: relative;
 }
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
-  width: 100%; /* Garantindo que o overlay cubra toda a área */
-  height: 100%; /* Garantindo que o overlay cubra toda a área */
-  position: absolute; /* Garantindo que o overlay cubra toda a área */
-  top: 0; /* Garantindo que o overlay cubra toda a área */
-  left: 0; /* Garantindo que o overlay cubra toda a área */
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
 }
+
 .intro h1 {
   font-family: "Raleway", sans-serif;
   color: #fff;
@@ -254,14 +255,17 @@ header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
-  position: relative; /* Adicionando position relative para ficar acima do overlay */
-  z-index: 1; /* Adicionando position relative para ficar acima do overlay */
+  position: relative;
+  z-index: 1;
 }
+
 /* Features Section */
 #features {
   background: #450063;
   color: #fff;
+  padding: 100px 0;
 }
+
 #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;
@@ -274,6 +278,7 @@ header .intro-text {
   background: linear-gradient(to right, #9414d1 0%, #03b2ed 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+
 /* About Section */
 #about {
   padding: 100px 0;
@@ -321,6 +326,7 @@ header .intro-text {
   line-height: 24px;
   margin: 30px 0;
 }
+
 /* Services Section */
 #services {
   padding: 100px 0;
@@ -364,6 +370,7 @@ header .intro-text {
 #services .service-desc {
   margin-bottom: 40px;
 }
+
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -409,6 +416,7 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
+
 /* Testimonials Section */
 #testimonials {
   padding: 100px 0;
@@ -449,6 +457,7 @@ header .intro-text {
   font-weight: 600;
   color: #666;
 }
+
 /* Team Section */
 #team {
   padding: 100px 0;
@@ -458,15 +467,19 @@ header .intro-text {
 }
 #team .team-img {
   width: 240px;
+  max-width: 100%;
+  height: auto;
 }
 #team .thumbnail {
   background: transparent;
   border: 0;
+  text-align: center;
 }
 #team .thumbnail .caption {
   padding: 10px 0 0;
   color: #888;
 }
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
@@ -535,8 +548,6 @@ label {
   border: 1px solid #ddd;
   border-radius: 0;
   -webkit-box-shadow: none;
-  box-shadow: none;
-  -webkit-transition: none;
   -o-transition: none;
   transition: none;
 }
@@ -593,10 +604,12 @@ label {
   color: #608dfd;
   background: #fff;
 }
+
 /* Footer Section*/
 #footer {
   background: #280120;
   padding: 30px 0;
+  text-align: center;
 }
 #footer p {
   color: #888;
@@ -612,6 +625,8 @@ label {
 @media (max-width: 768px) {
   #about img {
     margin: 50px 0;
+    max-width: 100%;
+    height: auto;
   }
 
   .intro h1 {
@@ -627,6 +642,12 @@ label {
     padding-top: 200px;
     padding-bottom: 100px;
   }
+
+  #team .team-img {
+    width: 100%;
+    max-width: 240px;
+    margin: 0 auto 20px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -641,5 +662,13 @@ label {
   header .intro-text {
     padding-top: 150px;
     padding-bottom: 80px;
+  }
+
+  #features,
+  #about,
+  #services,
+  #team,
+  #contact {
+    padding: 60px 15px;
   }
 }
