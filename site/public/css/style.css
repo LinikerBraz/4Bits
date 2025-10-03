@@ -237,6 +237,7 @@ a:focus,
 }
 .intro p {
   color: #fff;
+  text-align: justify;
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -252,6 +253,7 @@ header .intro-text {
 #features {
   background: #450063;
   color: #fff;
+  text-align: justify;
 }
 #features i.fa {
   font-size: 38px;
@@ -268,6 +270,7 @@ header .intro-text {
 /* About Section */
 #about {
   padding: 100px 0;
+  text-align: justify;
 }
 #about h3 {
   font-size: 22px;
@@ -317,6 +320,7 @@ header .intro-text {
   padding: 100px 0;
   background: linear-gradient(to right, #9414d1 0%, #03b2ed 100%);
   color: #fff;
+  text-align: justify;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
