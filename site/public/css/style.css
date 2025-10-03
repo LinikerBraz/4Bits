@@ -205,33 +205,16 @@ a:focus,
 }
 /* Header Section */
 .intro {
-  display: block;               /* evita comportamento estranho do table */
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  display: table;
   width: 100%;
-  max-width: 100vw;            /* evita overflow horizontal por causa da scrollbar */
-  min-height: 100vh;           /* garante altura total da tela */
-  background-image: url(../img/tecnologia-de-nuvem-com-holograma-futurista-em-smartwatch.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  padding: 0;
+  background: url(../img/tecnologia-de-nuvem-com-holograma-futurista-em-smartwatch.jpg) center center no-repeat;
   background-color: #280120;
-  overflow-x: hidden;         
-  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
-
-
-@media (max-width: 400px) {
-  .intro {
-    background-attachment: scroll; 
-    background-position: center top; 
-    
-    background-size: 120% auto;
-    max-width: 100%; 
-  }
-}
-
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
