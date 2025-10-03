@@ -228,6 +228,12 @@ a:focus,
     background-attachment: scroll !important;
     background-position: center top;
   }
+    .intro > * {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
 }
 
 .intro .overlay {
